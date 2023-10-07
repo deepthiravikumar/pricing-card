@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pricing Card</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.pricing-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.pricing-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.price {
+    font-size: 24px;
+    color: #007BFF;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+<body>
+    <div class="pricing-card-container">
+        <div class="pricing-card">
+            <h2>Basic</h2>
+            <p class="price">$10/month</p>
+            <ul>
+                <li> 1 device</li>
+                <li>access to kids</li>
+                <li>480p streaming</li>
+
+            </ul>
+            <button>Select Plan</button>
+        </div>
+        <div class="pricing-card">
+            <h2>Pro</h2>
+            <p class="price">$20/month</p>
+            <ul>
+                <li>2 devices</li>
+                <li>access to everything</li>
+                <li>kids subscription</li>
+                <li>720p streaming</li>
+
+            </ul>
+            <button>Select Plan</button>
+        </div>
+        <div class="pricing-card">
+            <h2>Premium</h2>
+            <p class="price">$30/month</p>
+            <ul>
+                <li>upto 2 device 1 laptop</li>
+                <li>all access</li>
+                <li>1080p streaming</li>
+                
+            </ul>
+            <button>Select Plan</button>
+        </div>
+    </div>
+</body>
+</html>
